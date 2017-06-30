@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="highcharts.js"></script>
+</head>
+<body>
+<div id="chartcontainer" width='100%'></div>
+
+<script>
+$(document).ready(function () {
+    var chart1; // globally available
+chart1 = new Highcharts.Chart({
+ chart: {
+  renderTo: 'chartcontainer',
+  type: 'column' // change with your choice
+ },
+ title: {
+  text: 'Fruit Consumption'
+ },
+ xAxis: {
+  categories: ['Apples', 'Bananas', 'Oranges'] 
+  // Should be replace with JSON
+ },
+ yAxis: {
+  title: {
+   text: 'Fruit eaten'
+  }
+ },
+ series: [{   //Should be replace with JSON
+  name: 'Jane',
+  data: [1, 0, 4]
+ }, {
+  name: 'John',
+  data: [5, 7, 3]
+ }]
+});
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="namesCtrl">
+<p><input id="search" onkeyup="show()" type="search" placeholder="search" ng-model="test"></p>
+
+<table id="tdid" style="display:none;">
+  <tr ng-repeat="x in names | filter:test">
+    <td><a href="#">{{ x }}</a></td>
+  </tr>
+</table>
+
+</div>
+<script>
+function show(){
+var value = document.getElementById('search').value;
+if(value.length > 0 )
+	document.getElementById('tdid').style.display = "block";
+else
+	document.getElementById('tdid').style.display = "none";
+}
+</script>
+<script>
+angular.module('myApp', []).controller('namesCtrl', function($scope) {
+    $scope.names = [
+        'Jani',
+        'Carl',
+        'Margareth',
+        'Hege',
+        'Joe',
+        'Gustav',
+        'Birgit',
+        'Mary',
+        'Kai'
+    ];
+});
+</script>
+</body>
+</html>

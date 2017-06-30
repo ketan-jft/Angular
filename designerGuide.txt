@@ -1,0 +1,30 @@
+Designer Guide by Ketan Pandey
+
+AngularJS CDN: 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+AngularMaterial:	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.js"></script>
+Angular UI Router:	<script src="https://ajax.googleapis.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.min.js"></script>
+DOJO:			<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.12.2/dojo/dojo.js"></script>
+EXT Core:		<script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>
+Hammer.JS:		<script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
+Indefinite Observable:	<script src="https://ajax.googleapis.com/ajax/libs/indefinite-observable/1.0.1/indefinite-observable.js"></script>
+jQuery:			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+jQuery Mobile:		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+jQuery UI:		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+MooTools:		<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.6.0/mootools.min.js"></script>
+Prototype:		<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+script.aculo.us:	<script src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+Shaka Player:		<script src="https://ajax.googleapis.com/ajax/libs/shaka-player/2.1.3/shaka-player.compiled.js"></script>
+SPF:			<script src="https://ajax.googleapis.com/ajax/libs/spf/2.4.0/spf.js"></script>
+SWFObject:		<script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+three.js:		<script src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js"></script>
+Web Font Loader:	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+
+Free Front-End Web Developer Course Offered by Google : https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
+
+Google Web Tool:	https://developers.google.com/web/tools/
+
+Google Code Test : 	https://www.google.com/foobar/
